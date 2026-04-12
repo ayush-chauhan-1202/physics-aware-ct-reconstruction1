@@ -115,7 +115,7 @@ Same Geometry, Materials and Defects
 Changing Gaussian Smoothening, Corrosion Factor
 
 | Parameter | Value 1 | Value 2 |
-|----------|------|
+|----------|------|-------|
 | Smoothening | 0.4 | 0.7 |
 | Corrosion Factor | 0.1 | 0.14 |
 
@@ -130,7 +130,7 @@ Changing Gaussian Smoothening, Corrosion Factor
 </p>
 
 <p align="center">
-  Phantom High Blur vs Phantom Low Blur
+  Phantom Low Blur vs Phantom High Blur
 </p>
 
 Observations:
