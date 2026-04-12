@@ -133,10 +133,37 @@ Multi-material simulation:
   Phantom Low Blur vs Phantom High Blur
 </p>
 
-Observations:
-- 
-- 
+### Variant: Noise Parameters
 
+- Same Phantom Volume
+- Changing Noise Setting
+
+| Preset | I₀ (photons) | σ_e | Ring strength | Beam hardening | Reported SNR |
+|--------|-------------|-----|---------------|----------------|---------------|
+| none   | 10⁹         | 0   | 0             | 0              |~14000         |
+| low    | 50 000      | 0.002 | 0.5 %       | 0 %            |30.3           |
+| medium | 10 000      | 0.005 | 1.0 %       | 3 %            |10.5           |
+| high   | 2 000       | 0.015 | 2.0 %       | 6 %            |4.9            |
+
+Applied in order: beam hardening → Poisson → Gaussian → rings.
+
+<p align="center">
+  <img src="assets/noisy_projections_180x90x180_float32_noiseless.gif" width="250"/>
+  <img src="assest/noisy_projections_180x90x180_float32_noiselow.gif" width="250"/>
+   <img src="assets/noisy_projections_180x90x180_float32_noisemed.gif" width="250"/>
+  <img src="assets/noisy_projections_180x90x180_float32_noisehigh.gif" width="250"/>
+</p>
+
+<p align="center">
+  <b>Noiseless</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Low Noise</b> &nbsp;&nbsp;&nbsp;&nbsp;
+   <b>Medium Noise</b> &nbsp;&nbsp;&nbsp;&nbsp;
+   <b>High Noise</b>
+</p>
+
+<p align="center">
+  None vs Low vs Med vs High Noise Projections
+</p>
 ---
 
 ## Applications
