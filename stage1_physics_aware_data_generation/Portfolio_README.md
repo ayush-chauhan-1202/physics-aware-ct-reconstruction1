@@ -84,7 +84,7 @@ Multi-material simulation:
 
 ---
 
-## Noise & Artefacts (Physics-Aware)
+## Noise & Artifacts (Physics-Aware)
 
 | Effect | What Does it Model |
 |------|------|
