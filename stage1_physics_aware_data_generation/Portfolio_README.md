@@ -33,6 +33,8 @@ Detector Measurements
 
 ## 📸 Sample Outputs (Add Images Here)
 
+<img width="514" height="513" alt="phantom_volume" src="https://github.com/user-attachments/assets/79471c7a-1e75-46bd-bb69-c422c8c87f54" />
+
 > Add images like:
 - Phantom slices
 - Clean vs noisy projections
