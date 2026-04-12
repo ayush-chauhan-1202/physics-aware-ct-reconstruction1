@@ -34,7 +34,8 @@ Detector Measurements
 ## 📸 Sample Outputs (Add Images Here)
 <img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/5414b1ab-f406-46ed-a6f1-84e1b2beec23" /> Phantom
 
- 
+ ![clean_projections_180x90x180_float32](https://github.com/user-attachments/assets/34664578-3742-46ef-aa6a-d7e9fde52572)
+
 
 > Add images like:
 - Phantom slices
