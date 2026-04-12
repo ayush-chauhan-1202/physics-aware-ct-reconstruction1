@@ -114,7 +114,7 @@ Multi-material simulation:
 Same Geometry, Materials and Defects
 Changing Gaussian Smoothening, Corrosion Factor
 
-| Parameter | Value 1 | Value 2 |
+| Parameter | Low Blur | High Blur |
 |----------|------|-------|
 | Smoothening | 0.4 | 0.7 |
 | Corrosion Factor | 0.1 | 0.14 |
