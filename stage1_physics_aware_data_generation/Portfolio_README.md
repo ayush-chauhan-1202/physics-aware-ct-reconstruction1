@@ -148,17 +148,17 @@ Multi-material simulation:
 Applied in order: beam hardening → Poisson → Gaussian → rings.
 
 <p align="center">
-  <img src="assets/noisy_projections_180x90x180_float32_noiseless.gif" width="250"/>
-  <img src="assest/noisy_projections_180x90x180_float32_noiselow.gif" width="250"/>
-   <img src="assets/noisy_projections_180x90x180_float32_noisemed.gif" width="250"/>
-  <img src="assets/noisy_projections_180x90x180_float32_noisehigh.gif" width="250"/>
+  <img src="assets/noisy_projections_180x90x180_float32_noiseless.gif" width="200"/>
+  <img src="assest/noisy_projections_180x90x180_float32_noiselow.gif" width="200"/>
+   <img src="assets/noisy_projections_180x90x180_float32_noisemed.gif" width="200"/>
+  <img src="assets/noisy_projections_180x90x180_float32_noisehigh.gif" width="200"/>
 </p>
 
 <p align="center">
   <b>Noiseless</b> &nbsp;&nbsp;&nbsp;&nbsp;
   <b>Low Noise</b> &nbsp;&nbsp;&nbsp;&nbsp;
    <b>Medium Noise</b> &nbsp;&nbsp;&nbsp;&nbsp;
-   <b>High Noise</b>
+   <b>High Noise</b>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
