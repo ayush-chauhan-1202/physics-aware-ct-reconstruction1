@@ -149,7 +149,7 @@ Applied in order: beam hardening → Poisson → Gaussian → rings.
 
 <p align="center">
   <img src="assets/noisy_projections_180x90x180_float32_noiseless.gif" width="200"/>
-  <img src="assest/noisy_projections_180x90x180_float32_noiselow.gif" width="200"/>
+  <img src="assets/noisy_projections_180x90x180_float32_noiselow.gif" width="200"/>
   <img src="assets/noisy_projections_180x90x180_float32_noisemed.gif" width="200"/>
   <img src="assets/noisy_projections_180x90x180_float32_noisehigh.gif" width="200"/>
 </p>
