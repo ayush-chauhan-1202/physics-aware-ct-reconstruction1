@@ -32,11 +32,8 @@ Detector Measurements
 ---
 
 ## 📸 Sample Outputs (Add Images Here)
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/5414b1ab-f406-46ed-a6f1-84e1b2beec23" /> Phantom
 
-<figure>
-  <img src="https://github.com/user-attachments/assets/79471c7a-1e75-46bd-bb69-c422c8c87f54" alt="Alt Text">
-  <figcaption>This is the Visible Title</figcaption>
-</figure>
  
 
 > Add images like:
