@@ -111,9 +111,8 @@ Multi-material simulation:
 
 ### Variant: Phantom Volume Parameters
 
-Same Geometry, Materials and Defects
-//
-Changing Gaussian Smoothening, Corrosion Factor
+- Same Geometry, Materials and Defects
+- Changing Gaussian Smoothening, Corrosion Factor
 
 | Parameter | Low Blur | High Blur |
 |----------|------|-------|
