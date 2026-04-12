@@ -34,7 +34,7 @@ Detector Measurements
 ## 📸 Sample Outputs (Add Images Here)
 
 <figure>
-  <img src="[URL](https://github.com/user-attachments/assets/79471c7a-1e75-46bd-bb69-c422c8c87f54)" alt="Alt Text">
+  <img src="https://github.com/user-attachments/assets/79471c7a-1e75-46bd-bb69-c422c8c87f54" alt="Alt Text">
   <figcaption>This is the Visible Title</figcaption>
 </figure>
  
