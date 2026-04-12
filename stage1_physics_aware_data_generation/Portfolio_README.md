@@ -30,9 +30,7 @@ Detector Measurements
 ```
 
 ---
-
-## 📸 Sample Outputs (Add Images Here)
-## 📸 Sample Outputs
+## Sample Outputs
 
 <p align="center">
   <img src="assets/phantom_volume_64x128x128_float32.gif" width="260"/>
@@ -50,21 +48,9 @@ Detector Measurements
   Ground truth vs ideal vs physics-aware noisy CT projections
 </p>
 
-
-> Add images like:
-- Phantom slices
-- Clean vs noisy projections
-- Sinograms
-
-```
-/assets/phantom.png
-/assets/projection.png
-/assets/noise_comparison.png
-```
-
 ---
 
-## ⚙️ CT Geometry
+## CT Geometry
 
 | Parameter | Description |
 |----------|------------|
@@ -76,7 +62,7 @@ Detector Measurements
 
 ---
 
-## 🧱 Industrial Phantom
+## Industrial Phantom
 
 Multi-material simulation:
 - CFRP (base)
@@ -85,7 +71,7 @@ Multi-material simulation:
 
 ---
 
-## 🧨 Defect Library
+## Defect Library
 
 | Defect | Description |
 |------|------------|
@@ -98,11 +84,11 @@ Multi-material simulation:
 
 ---
 
-## 🔊 Noise & Artefacts (Physics-Aware)
+## Noise & Artefacts (Physics-Aware)
 
 | Effect | Model |
 |------|------|
-| Beam Hardening | p' = p + αp² |
+| Beam Hardening | p' = p + αp² | 
 | Poisson | Photon statistics |
 | Gaussian | Electronics noise |
 | Rings | Detector bias |
@@ -123,14 +109,29 @@ Multi-material simulation:
 
 ## 🧪 Experiment Tracking
 
-### Variant: ___________________
+### Variant: Phantom Volume Parameters
 
-| Parameter | Value |
+Same Geometry, Materials and Defects
+Changing Gaussian Smoothening, Corrosion Factor
+
+| Parameter | Value 1 | Value 2 |
 |----------|------|
-| Noise |  |
-| α |  |
-| σ |  |
-| Scatter |  |
+| Smoothening | 0.4 | 0.7 |
+| Corrosion Factor | 0.1 | 0.14 |
+
+<p align="center">
+  <img src="assets/phantom_volume_64x128x128_float32_corr_pt1_smooth_pt4.gif" width="500"/>
+  <img src="assets/phantom_volume_64x128x128_float32_corr_pt14_smooth_pt7.gif" width="500"/>
+</p>
+
+<p align="center">
+  <b>Phantom Corr 0.1 Smooth 0.4</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Phantom Corr 0.14 Smooth 0.7</b> &nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p align="center">
+  Phantom High Blur vs Phantom Low Blur
+</p>
 
 Observations:
 - 
@@ -138,7 +139,7 @@ Observations:
 
 ---
 
-## 📊 Applications
+## Applications
 
 - CT denoising (DL models)
 - Defect detection (classification/segmentation)
@@ -148,7 +149,7 @@ Observations:
 
 ---
 
-## 🧠 Key Technical Highlights
+## Key Technical Highlights
 
 - Physics-consistent forward model
 - Signal-dependent noise (Poisson)
@@ -157,7 +158,7 @@ Observations:
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 - Polychromatic modeling μ(E)
 - Detector PSF
@@ -167,7 +168,7 @@ Observations:
 
 ---
 
-## 👤 Author
+## Author
 
 **Ayush Chauhan**  
 Applied ML | CT Reconstruction | Industrial AI  
