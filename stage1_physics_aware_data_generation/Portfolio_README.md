@@ -156,13 +156,14 @@ Applied in order: beam hardening → Poisson → Gaussian → rings.
 
 <p align="center">
   <b>Noiseless</b> &nbsp;&nbsp;&nbsp;&nbsp;
+   <b></b>
   <b>Low Noise</b> &nbsp;&nbsp;&nbsp;&nbsp;
   <b>Medium Noise</b> &nbsp;&nbsp;&nbsp;&nbsp;
   <b>High Noise</b>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
-  None  |  Low  |  Med  |  High Noise Projections
+  Physics-aware Projections with Different Noise Conditions
 </p>
 ---
 
