@@ -138,7 +138,7 @@ Multi-material simulation:
 - Same Phantom Volume
 - Changing Noise Setting
 
-| Preset | I₀ (photons) | σ_e | Ring strength | Beam hardening | Reported SNR |
+| Noise Preset | I₀ (photon count) | σ_e (Gauusian) | Ring strength | Beam hardening | Reported SNR |
 |--------|-------------|-----|---------------|----------------|---------------|
 | none   | 10⁹         | 0   | 0             | 0              |~14000         |
 | low    | 50 000      | 0.002 | 0.5 %       | 0 %            |30.3           |
