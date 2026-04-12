@@ -86,13 +86,13 @@ Multi-material simulation:
 
 ## Noise & Artefacts (Physics-Aware)
 
-| Effect | Model |
+| Effect | What Does it Model |
 |------|------|
-| Beam Hardening | p' = p + αp² | 
-| Poisson | Photon statistics |
-| Gaussian | Electronics noise |
-| Rings | Detector bias |
-| Scatter | Low-frequency blur |
+| Beam Hardening | Polychromatic nature of X-ray source | 
+| Poisson | Randomness in Photon statistics |
+| Gaussian | Electronics noise in flat panel detectors |
+| Rings | Detector bias, gain or caliberation error |
+| Scatter | Low-frequency blur due to photon scatter|
 
 ---
 
