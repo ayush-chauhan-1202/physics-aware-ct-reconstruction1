@@ -32,12 +32,23 @@ Detector Measurements
 ---
 
 ## 📸 Sample Outputs (Add Images Here)
-<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/5414b1ab-f406-46ed-a6f1-84e1b2beec23" /> Phantom
+## 📸 Sample Outputs
 
- ![clean_projections_180x90x180_float32](https://github.com/user-attachments/assets/34664578-3742-46ef-aa6a-d7e9fde52572) Clean Projections
+<p align="center">
+  <img src="assets/phantom_volume_64x128x128_float32.gif" width="260"/>
+  <img src="assets/clean_projections_180x90x180_float32.gif" width="260"/>
+  <img src="assets/noisy_projections_180x90x180_float32.gif" width="260"/>
+</p>
 
-![noisy_projections_180x90x180_float32](https://github.com/user-attachments/assets/28bea6a4-1fe0-4657-b1a6-e80a8844e5c1)
-Noisy Projections
+<p align="center">
+  <b>Phantom</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Clean Projection</b> &nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Noisy Projection</b>
+</p>
+
+<p align="center">
+  Ground truth vs ideal vs physics-aware noisy CT projections
+</p>
 
 
 > Add images like:
