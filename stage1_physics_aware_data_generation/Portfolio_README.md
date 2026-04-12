@@ -33,7 +33,11 @@ Detector Measurements
 
 ## 📸 Sample Outputs (Add Images Here)
 
-<img width="128" height="128" title= "phantom_volume" alt="phantom_volume" src="https://github.com/user-attachments/assets/79471c7a-1e75-46bd-bb69-c422c8c87f54" />
+<figure>
+   <img width="128" height="128" title= "phantom_volume" alt="phantom_volume" src="https://github.com/user-attachments/assets/79471c7a-1e75-46bd-bb69-c422c8c87f54" />
+<figcaption>This is the Visible Title</figcaption>
+</figure>
+ 
 
 > Add images like:
 - Phantom slices
